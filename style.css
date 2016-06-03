@@ -1912,3 +1912,11 @@ width:340px;
 	margin-right:20px;
 	
 }
+
+.no-sidebar #main{
+	width:1200px;
+}
+.no-sidebar .sidebar{
+	display:none;
+	
+}
