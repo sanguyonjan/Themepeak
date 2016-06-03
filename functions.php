@@ -666,6 +666,35 @@ function my_styles_method() {
 						.getMargin($themepeak_cust_opt[archive_title_margin])
 						.getBorder($themepeak_cust_opt[archive_title_border],'')
 				."
+				
+						/* Styling for  Primary Sidebar*/
+						.three-columns .sidebar-primary{"
+								.get_gradient(
+							$themepeak_cust_opt[tp_layout_primary_section_background][type],
+							$themepeak_cust_opt[tp_layout_primary_section_background][gradient1_size],
+							$themepeak_cust_opt[tp_layout_primary_section_background][gradient1_color],
+							$themepeak_cust_opt[tp_layout_primary_section_background][gradient2_size],
+							$themepeak_cust_opt[tp_layout_primary_section_background][gradient2_color],
+							'','' )
+							.getMargin($themepeak_cust_opt[tp_layout_primary_section_margin])
+							.getPadding($themepeak_cust_opt[tp_layout_primary_section_padding])
+							.getBorder($themepeak_cust_opt[tp_layout_primary_section_border],'')
+							."
+						
+								/* Styling for  secondary Sidebar*/
+								.three-columns .sidebar-secondary{"
+								.get_gradient(
+							$themepeak_cust_opt[tp_layout_secondary_section_background][type],
+							$themepeak_cust_opt[tp_layout_secondary_section_background][gradient1_size],
+							$themepeak_cust_opt[tp_layout_secondary_section_background][gradient1_color],
+							$themepeak_cust_opt[tp_layout_secondary_section_background][gradient2_size],
+							$themepeak_cust_opt[tp_layout_secondary_section_background][gradient2_color],
+							'','' )
+							 .getMargin($themepeak_cust_opt[tp_layout_secondary_section_margin])
+							.getPadding($themepeak_cust_opt[tp_layout_secondary_section_padding])
+							 .getBorder($themepeak_cust_opt[tp_layout_secondary_section_border],'')
+							."
+							
 						/* Styling for  headings */
 						h1{".getFont($themepeak_cust_opt[heading_font_h1_font_settings])." clear:".$h1_clear.";}
 						
